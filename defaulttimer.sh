@@ -3,17 +3,17 @@ cd /tmp/tmpfoldername/
 echo "Start"
 while (true) 
 do
- ./4.sh;
+  bash 4.sh;
  sleep pausefour; 
-  ./2.sh;
+  bash 2.sh;
  sleep pausetwo; 
-   ./5.sh;
+  bash 5.sh;
  sleep pausefive; 
-   ./3.sh;
+  bash 3.sh;
  sleep pausethree; 
-   ./6.sh;
+  bash 6.sh;
  sleep pausesix; 
-  ./1.sh;
+  bash 1.sh;
  sleep pauseone; 
 done;
 
