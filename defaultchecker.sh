@@ -10,7 +10,7 @@ if [ $result -ge 1 ]
 	echo "script is running"
 else
 	echo "script is not running"
-	sudo ./defaulttimer.sh
+	sudo bash defaulttimer.sh
 fi
 done;
 
